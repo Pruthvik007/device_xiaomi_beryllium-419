@@ -4,3 +4,8 @@ ro.face.sense_service.camera_id=5
 
 # Recovery
 ro.recovery.ui.margin_height=87
+
+# Project Infinity X About phone
+ro.product.marketname=POCO F1
+ro.infinity.soc=Snapdragon 845
+ro.infinity.camera=12MP + 5MP

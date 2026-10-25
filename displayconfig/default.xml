@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!--
+    Copyright (C) 2024 The Android Open Source Project
+    Poco F1 (beryllium) Display Device Configuration
+-->
+<displayConfiguration>
+    <name>Poco F1 Panel</name>
+    <screenBrightnessMap>
+        <point>
+            <value>0.0</value>
+            <nits>2.0</nits>
+        </point>
+        <point>
+            <value>0.5</value>
+            <nits>210.0</nits>
+        </point>
+        <point>
+            <value>1.0</value>
+            <nits>420.0</nits>
+        </point>
+    </screenBrightnessMap>
+    <screenBrightnessDefault>0.5</screenBrightnessDefault>
+    <hdrBrightnessConfig>
+        <brightnessMap>
+            <point>
+                <first>0.0</first>
+                <second>1.0</second>
+            </point>
+            <point>
+                <first>1000.0</first>
+                <second>1.0</second>
+            </point>
+        </brightnessMap>
+        <brightnessIncreaseDebounceMillis>500</brightnessIncreaseDebounceMillis>
+        <brightnessDecreaseDebounceMillis>500</brightnessDecreaseDebounceMillis>
+        <screenBrightnessRampIncrease>0.05</screenBrightnessRampIncrease>
+        <screenBrightnessRampDecrease>0.05</screenBrightnessRampDecrease>
+        <minimumHdrPercentOfScreenForNbm>0.1</minimumHdrPercentOfScreenForNbm>
+        <minimumHdrPercentOfScreenForHbm>0.1</minimumHdrPercentOfScreenForHbm>
+        <allowInLowPowerMode>false</allowInLowPowerMode>
+        <sdrHdrRatioMap>
+            <point>
+                <first>2.0</first>
+                <second>4.0</second>
+            </point>
+            <point>
+                <first>50.0</first>
+                <second>3.0</second>
+            </point>
+            <point>
+                <first>100.0</first>
+                <second>2.0</second>
+            </point>
+            <point>
+                <first>420.0</first>
+                <second>1.0</second>
+            </point>
+        </sdrHdrRatioMap>
+    </hdrBrightnessConfig>
+    <refreshRate>
+        <defaultRefreshRate>60</defaultRefreshRate>
+        <defaultPeakRefreshRate>60</defaultPeakRefreshRate>
+        <defaultRefreshRateInHbmHdr>60</defaultRefreshRateInHbmHdr>
+        <defaultRefreshRateInHbmSunlight>60</defaultRefreshRateInHbmSunlight>
+    </refreshRate>
+</displayConfiguration>
